@@ -1,0 +1,353 @@
+* {
+margin: 0%;
+font-family: 'Jaldi';
+}
+    
+a:link {
+text-decoration: none;
+}
+    
+.navbar {
+width: 100%;
+height: 85px;
+background: #14164A;
+}
+        
+.navbar nav {
+display: flex;
+justify-content: space-between;
+margin-left: 19rem;
+margin-top: -3em;
+}
+        
+.navbar a {
+font-style: normal;
+font-weight: 400;
+font-size: 14.5px;
+color: #FFFEFE;    
+}
+    
+.navbar img {
+width: 1.5rem;
+height: 1.5rem;
+padding-left: 1rem;
+}
+        
+.navbartitle {
+color: #F5F5F5;
+font-style: normal;
+font-weight: 400;
+margin-left: 1rem;
+padding: 0rem;
+}
+        
+.navbartitle p {
+width: 4.8rem;
+height: 0px;
+border: 1px solid #EECC1C;
+}
+    
+.navbartitle span {
+display: inline-flex;
+justify-content: space-between;
+}
+    
+.navbartitle h1 {
+width: 200px;
+height: 41px;
+font-size: 24px;
+line-height: 41px;    
+}
+        
+.navbartitle h3 {
+width: 54px;
+height: 25px;
+font-size: 15px;
+line-height: 25px;
+margin-left: 1rem;
+margin-top: -0.5rem;
+}
+    
+.search button {
+box-sizing: border-box;
+width: 8rem;
+height: 2.5rem;
+background: #FFFEFE;
+border: 1px solid #14164A;
+border-radius: 30px;
+}
+    
+.search input {
+margin-top: 0.5rem;
+width: 2.5rem;
+border: none;
+}
+
+.leftsidebody {
+margin-left: 2rem;
+}
+
+.leftsidebody h1 {
+margin-top: 0.5rem;
+margin-left: 1.5rem;
+font-size: 2rem;
+line-height: 2.5rem;
+    
+}
+
+.rating-stars {
+display: flex;
+margin-left: 1.5rem;
+width:1.7rem;
+}
+
+.rating-stars img {
+width: 1.7rem;
+height: 1.5rem;
+}
+
+.fouroffive {
+margin-left: 13rem;
+margin-top: -1.3rem;
+}
+
+.globalratings {
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: rgba(103, 102, 102, 0.99);
+margin-top: .2rem;
+margin-left: 1.5rem;
+}
+
+.ratings{
+padding-top: 2rem;
+padding-left: 1rem;
+}
+
+.ratings p {
+font-size: 15px;
+line-height: 25px;
+}
+
+.fivestar {
+width: 16rem;
+height: 2.2rem;
+background: linear-gradient(to right, rgba(248, 217, 55, 0.79) 79%, #D9D9D9 21% ); 
+border-radius: .5rem;
+border-color: transparent;
+background-clip: padding-box;
+cursor: pointer;
+}
+
+.fourstar {
+width: 16rem;
+height: 2.2rem;
+background: linear-gradient(to left,#D9D9D9 91%, rgba(248, 217, 55, 0.79) 9% ); 
+border-radius: .5rem;
+border-color: transparent;
+background-clip: padding-box;
+cursor: pointer;
+}
+
+.threestar {
+width: 16rem;
+height: 2.2rem;
+background: linear-gradient(to left, #D9D9D9 98%, rgba(248, 217, 55, 0.79) 2%);
+border-radius: .5rem;
+border-color: transparent;
+background-clip: padding-box;
+cursor: pointer;
+}
+
+.twostar {
+width: 16rem;
+height: 2.2rem;
+background: #D9D9D9; 
+border-radius: .5rem;
+border-color: transparent;
+background-clip: padding-box;
+cursor: pointer;
+}
+
+.onestar {
+width: 16rem;
+height: 2.2rem;
+background: #D9D9D9; 
+border-radius: .5rem;
+border-color: transparent;
+background-clip: padding-box;
+cursor: pointer;
+}
+
+.leftbutton button{
+box-sizing: border-box;
+position: absolute;
+width: 10rem;
+height: 2.2rem;
+background: #FFFEFE;
+border: 1px solid rgba(184, 181, 181, 0.99);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2rem;
+margin-left: 7rem;
+font-size: 1rem;
+margin-top: 1.5rem;
+cursor: pointer;
+}
+
+.rightsidebody {
+margin-left: 28rem;
+margin-top: -23.5rem;
+}
+    
+.rightsidebody .header {
+font-style: normal;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.5rem;
+}
+
+.rightsidebody .bookcoverimg {
+width: 6rem;
+height: 9rem;
+}
+
+.rightsidecontent {
+margin-left: 7.5rem;
+margin-top: -8rem;
+}
+
+.rightcontentbody {
+margin-top: 2.5rem;
+}
+
+.rightcontentbody h2 {
+font-size: 2.5rem;
+}
+
+.rightcontentbody a {
+font-size: 1.5rem;
+}
+
+.rightcontentbody .profileicon{
+width: 2.5rem;
+height: 2.5rem;
+}
+
+.rightcontentbody .profilereview {
+display: flex;
+align-items: center;
+margin-top: .5rem;
+}
+
+.profilereview a:visited {
+color: black;
+}
+
+.profilereview p {
+margin-left: 1rem;
+font-size: 1.5rem;
+}
+
+.rightstars {
+margin-top: .5rem;
+margin-bottom: .5rem;
+display: flex;
+align-items: center;
+}
+
+.rightstars h3 {
+margin-left: 1.2rem;
+font-size: 2.1rem;
+}
+
+.reviewdescription p {
+font-size: 1.8rem;
+line-height: 2.4rem;
+
+}
+
+.reviewdescription .USflag {
+width: 1.2rem;
+height: 1.2rem;
+}
+
+.helpfultip {
+margin-top: 1rem;
+font-size: 1.5rem;
+line-height: 1rem;   
+color: rgba(103, 102, 102, 0.99);
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    .navbar {
+        width: auto;
+    }
+
+    .leftbutton {
+        margin-top: -11.5rem;
+        margin-left: 20rem;
+    }
+
+    .rightsidebody {
+        margin-top: 20rem;
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        width: auto;
+    }
+    
+    .navbar nav {
+        padding-left: 0%;
+        margin-left: 10rem;
+    }
+    
+    .navbar button {
+        width: 4rem;
+    }
+    
+    .navbar img {
+        visibility: hidden;
+    }
+    
+    .navbartitle {
+        width: 1rem;
+    }
+      
+    .navbartitle p {
+      width: 1rem;
+    }
+    
+    .navbartitle h1 {
+      font-size: small;
+      
+    }
+      
+    .navbartitle h3 {
+     font-size: small;
+    }
+
+    .leftsidebody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightsidebody {
+        margin-top: 6rem;
+        margin-left: 3rem;
+    }
+
+    .rightsidecontent {
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+}
+
+ 
+
+
+
